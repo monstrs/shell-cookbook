@@ -1,0 +1,10 @@
+[user]
+<% if @name %>
+name = <%= @name %>
+<% end %>
+<% if @email %>
+email = <%= @email %>
+<% end %>
+
+[core]
+editor = <%= @editor || "mcedit" %>
